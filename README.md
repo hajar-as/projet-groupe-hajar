@@ -10,13 +10,7 @@ Créer un carnet de voyage virtuel permettant aux utilisateurs de rédiger et pa
 - FARFAOUA Fatima-ezzahra
 
 # liste des fonctionnalités principales :
-- Création d'un carnet de voyage
-- Recherche et filtrage des destinations
-- Ajout de destinations
-- Commentaires sur les destinations
-- Partage sur les réseaux sociaux
-  
-  *******************************************
+
 # 1- Gestion des récits de voyage
    - Création et édition de récits : Les utilisateurs doivent pouvoir écrire leurs aventures avec un éditeur de texte enrichi (mise en forme, ajout d’images, vidéos, emojis…).
    - Enregistrement des brouillons : Possibilité d’enregistrer un récit en tant que brouillon pour le compléter plus tard.
