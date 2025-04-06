@@ -3,29 +3,35 @@ name: CI Pipeline
 on:
   push:
     branches:
-      - main
+      - main  # Déclenche le workflow sur les push vers la branche "main"
   pull_request:
     branches:
-      - main
+      - main  # Déclenche le workflow sur les pull requests vers la branche "main"
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest  # Utilise Ubuntu comme environnement pour exécuter les actions
 
     steps:
     - name: Checkout code
-      uses: actions/checkout@v3
+      uses: actions/checkout@v3  # Clone le dépôt GitHub dans l'environnement de CI
 
     - name: Set up Node.js
       uses: actions/setup-node@v3
       with:
-        node-version: '16'
+        node-version: '16'  # Spécifie la version de Node.js que vous utilisez
 
     - name: Install dependencies
-      run: npm install
+      run: |
+        cd virtual_travel_frontend  # Se déplace dans le répertoire virtual_travel_frontend
+        npm install  # Installe les dépendances définies dans le package.json
 
     - name: Run tests
-      run: npm test
+      run: |
+        cd virtual_travel_frontend  # Se déplace dans le répertoire virtual_travel_frontend
+        npm test  # Lance les tests définis dans package.json
 
     - name: Lint code
-      run: npm run lint
+      run: |
+        cd virtual_travel_frontend  # Se déplace dans le répertoire virtual_travel_frontend
+        npm run lint  # Exécute le linter pour vérifier la qualité du code
