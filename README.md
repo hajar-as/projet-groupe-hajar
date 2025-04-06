@@ -1,5 +1,5 @@
 # projet-groupe-hajar
-Un carnet de voyage virtuel où l'on peut écrire et partager des récits de voyage en utilisant différents temps verbaux pour une expérience immersive.
+Un carnet de voyage virtuel où l'on peut écrire et partager des récits de voyage en utilisant différents temps verbaux pour une expérience immersive. hello
 
 # Objectif du projet :
 Créer un carnet de voyage virtuel permettant aux utilisateurs de rédiger et partager leurs expériences de voyage en utilisant différents temps verbaux, afin d'améliorer la narration et l'immersion.
