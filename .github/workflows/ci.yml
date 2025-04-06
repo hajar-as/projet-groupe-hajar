@@ -17,5 +17,5 @@ jobs:
       with:
           python-version: '3.9'  # Tu peux choisir la version Python que tu souhaites           
       -name: Executer le script 
-        run: python main.py
+      run: python main.py
        
