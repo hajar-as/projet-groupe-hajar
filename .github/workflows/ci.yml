@@ -9,13 +9,12 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
-
-    steps:
-      -uses: actions/setup-python@v4
+    steps: 
+      -uses: actions/checkout@v3
       -name: Installer Python
-      uses: actions/checkout@v3
+      uses: actions/setup-python@v4
       with:
-          python-version: '3.9'  # Tu peux choisir la version Python que tu souhaites           
+        python-version: '3.9'  # Tu peux choisir la version Python que tu souhaites           
       -name: Executer le script 
       run: python main.py
        
