@@ -25,3 +25,4 @@ Créer un carnet de voyage virtuel permettant aux utilisateurs de rédiger et pa
 # 4- Enregistrement et organisation des récits
   - Favoris et bibliothèque personnelle : Enregistrer des récits d’autres utilisateurs pour les relire plus tard.
   - Exportation en PDF : Génération d’un fichier PDF pour imprimer ou conserver ses récits.
+"Automatic update from Jenkins - 26/04/2025 11:11:21,28" 
