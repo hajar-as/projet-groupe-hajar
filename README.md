@@ -26,3 +26,4 @@ Créer un carnet de voyage virtuel permettant aux utilisateurs de rédiger et pa
   - Favoris et bibliothèque personnelle : Enregistrer des récits d’autres utilisateurs pour les relire plus tard.
   - Exportation en PDF : Génération d’un fichier PDF pour imprimer ou conserver ses récits.
 "Automatic update from Jenkins - 26/04/2025 11:11:21,28" 
+"Automatic update from Jenkins - 26/04/2025 11:22:08,14" 
